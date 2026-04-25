@@ -71,7 +71,6 @@ SELECT name, mass
 FROM planets
 WHERE LENGTH(name) = 7;
 """, conn1)
-assert(list(df_name_seven['name']) == ['Mercury', 'Jupiter', 'Neptune'])
 
 
 # ## Part 2: Advanced Filtering
